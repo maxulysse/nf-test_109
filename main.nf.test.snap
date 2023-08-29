@@ -1,0 +1,65 @@
+{
+    "MAIN: default test": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test_2.fastq"
+                        },
+                        "test_2.fastq.gz.md5:md5,055dc46636836dbd1d9ede2e6ce8cd4e"
+                    ],
+                    [
+                        {
+                            "id": "test_1.fastq"
+                        },
+                        "test_1.fastq.gz.md5:md5,63a3f187d06ae5cffe77fcd39bbdd63a"
+                    ],
+                    [
+                        {
+                            "id": "test_pair",
+                            "single_end": false
+                        },
+                        [
+                            "test_pair_1_fastqc.zip:md5,e96ad8acd2be79e846b326563c24b5fa",
+                            "test_pair_2_fastqc.zip:md5,76a47ffa2e4b1a1828b1b3ada20490e7"
+                        ]
+                    ]
+                ],
+                "1": [
+                    "versions.yml:md5,34a4c33329b18e35befc60b7ce54d5f1",
+                    "versions.yml:md5,62f68e994c87e146a7af55d5b78a0ce7"
+                ],
+                "expected_files": [
+                    [
+                        {
+                            "id": "test_2.fastq"
+                        },
+                        "test_2.fastq.gz.md5:md5,055dc46636836dbd1d9ede2e6ce8cd4e"
+                    ],
+                    [
+                        {
+                            "id": "test_1.fastq"
+                        },
+                        "test_1.fastq.gz.md5:md5,63a3f187d06ae5cffe77fcd39bbdd63a"
+                    ],
+                    [
+                        {
+                            "id": "test_pair",
+                            "single_end": false
+                        },
+                        [
+                            "test_pair_1_fastqc.zip:md5,e96ad8acd2be79e846b326563c24b5fa",
+                            "test_pair_2_fastqc.zip:md5,76a47ffa2e4b1a1828b1b3ada20490e7"
+                        ]
+                    ]
+                ],
+                "versions": [
+                    "versions.yml:md5,34a4c33329b18e35befc60b7ce54d5f1",
+                    "versions.yml:md5,62f68e994c87e146a7af55d5b78a0ce7"
+                ]
+            }
+        ],
+        "timestamp": "2023-08-29T16:23:46+0000"
+    }
+}

@@ -1,0 +1,25 @@
+nextflow_workflow {
+
+    name "Test workflow in main.nf"
+    script "main.nf"
+    workflow "MAIN"
+
+    test("MAIN: default test") {
+        when {
+            workflow {
+                """
+                """
+
+            }
+            params {
+                outdir = "$outputDir"
+            }
+        }
+        then {
+            assertAll(
+                { assert workflow.success },
+                { assert snapshot(workflow.out).match() }
+            )
+        }
+    }
+}
