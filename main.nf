@@ -18,8 +18,5 @@ workflow MAIN {
 }
 
 workflow {
-
-
-
     MAIN()
 }
